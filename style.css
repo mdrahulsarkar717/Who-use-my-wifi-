@@ -1,0 +1,79 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+}
+header p{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-size: .6em;
+    text-align: center;
+    background: #D87A0C;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .img1{
+    width: 100%;
+    margin-top: -30px;
+}
+.container h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+  /*  position: absolute;*/
+  /*  margin-top: -170px; */
+    background: #334CEA;
+    color: white;
+    border-radius: 20px;
+    padding: 7px;
+}
+.container h4{
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    background-color: #104EC7;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 2px;
+    margin-top: -20px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.container button{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1B80C4;
+    font-size: 2em;
+    font-weight: bold;
+    border: 1px solid #3889F5;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.8);
+    transition: 0.1s;
+}
+.container button:hover{
+    transform: scale(0.9);
+}
+footer p{
+   width: 100%; 
+   text-align: center;
+   position: relative;
+   background-color: rgba(0, 0, 0, 0.1);
+   position: absolute;
+   bottom: 0px;
+   font-size: 0.8em;
+}
